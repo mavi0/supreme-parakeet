@@ -1,6 +1,6 @@
 # Container for containernet testing
 
-FROM ubuntu:xenial
+FROM ubuntu:trusty
 MAINTAINER Eleanor Davies <ele@nordavi.es>
 
 RUN apt-get update \
