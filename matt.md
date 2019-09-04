@@ -20,24 +20,25 @@ app activate org.onosproject.fwd
 ```
 5. In another terminal, start containernet.
 ```bash
-sudo python containernet_example.py
+cd ~/containernet/pancake/
+sudo python containernet.py
 ```
-This should have an output like this: ![alt text](https://github.com/mavi0/supreme-parakeet/master/containernet-example.png "Sample output")
+   This should have an output like this: ![alt text](https://raw.githubusercontent.com/mavi0/supreme-parakeet/master/containernet-example.png "Sample output")
 
-6. You should be able to ping between instances now. This doesn't pass much traffic however, so I made a quick docker image which also has iperf3, so we can properly see some data passing through the network. To do this you're going to need to load up a couple more terminals. 
+6. You should be able to ping between instances now. This doesn't pass much traffic however, so I made a quick docker image which also has iperf3 which means we can properly see some data passing through the network. To do this you're going to need to load up a couple more terminals. 
 
-In the first load up the iperf server:
+   In the first load up the iperf server:
 ```bash
 sudo docker exec -it mn.d1 bash 
 iperf3 -s
 ```
 
-In the second load up the iperf client:
+   In the second load up the iperf client:
 ```bash
 sudo docker exec -it mn.d2 bash 
 iperf3 -c 10.0.0.251
 ```
-Here's a sample output: ![alt text](https://github.com/mavi0/supreme-parakeet/master/iperf-example.png "Sample output")
+   Here's a sample output: ![alt text](https://raw.githubusercontent.com/mavi0/supreme-parakeet/master/iperf-example.png "Sample output")
 
 7. To access the REST API the url is [http://51.158.171.12:8181/onos/v1/flows](http://51.158.171.12:8181/onos/v1/flows) (onos/rocks)
 
