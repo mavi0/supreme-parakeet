@@ -22,7 +22,8 @@ def post_reroute(url, reroute_JSON):
 
 # Load JSON from file
 def main():
-
     with open("reroute.json", 'r') as f:
         reroute_JSON = json.load(f)
         post_reroute('http://51.15.59.76:8181/onos/v1/imr/imr/reRouteIntents', json.dumps(reroute_JSON))
+
+main()
