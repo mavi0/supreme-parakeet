@@ -1,0 +1,354 @@
+{
+  "statistics": [
+    {
+      "id": 187,
+      "name": "org.onosproject.ifwd",
+      "intents": [
+        {
+          "00:00:00:00:00:01/None00:00:00:00:00:03/None": [
+            {
+              "id": "52354345825842809",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000001",
+              "state": "ADDED",
+              "life": 67,
+              "packets": 74882,
+              "bytes": 3969004412,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294548,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "1"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 3
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:03"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "52354349930245881",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000002",
+              "state": "ADDED",
+              "life": 67,
+              "packets": 74750,
+              "bytes": 3960949164,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294548,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "3"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 1
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:03"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:01"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "00:00:00:00:00:04/None00:00:00:00:00:02/None": [
+            {
+              "id": "52354347546840632",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000001",
+              "state": "ADDED",
+              "life": 59,
+              "packets": 62754,
+              "bytes": 4142184,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294548,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "4"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 1
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:02"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:04"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "52354347694206157",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000002",
+              "state": "ADDED",
+              "life": 59,
+              "packets": 62754,
+              "bytes": 4142184,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294548,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "1"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 4
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:02"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:04"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "00:00:00:00:00:02/None00:00:00:00:00:04/None": [
+            {
+              "id": "52354349335049671",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000001",
+              "state": "ADDED",
+              "life": 59,
+              "packets": 63046,
+              "bytes": 4093218916,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294549,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "1"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 4
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:04"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:02"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "52354345774070310",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000002",
+              "state": "ADDED",
+              "life": 59,
+              "packets": 62916,
+              "bytes": 4084864064,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294548,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "4"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 1
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:04"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:02"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "00:00:00:00:00:03/None00:00:00:00:00:01/None": [
+            {
+              "id": "52354348518754732",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000001",
+              "state": "ADDED",
+              "life": 67,
+              "packets": 69914,
+              "bytes": 4614372,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294548,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "3"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 1
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:01"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:03"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "52354348744268825",
+              "tableId": "0",
+              "appId": "org.onosproject.net.intent",
+              "groupId": 0,
+              "priority": 100,
+              "timeout": 0,
+              "isPermanent": true,
+              "deviceId": "of:0000000000000002",
+              "state": "ADDED",
+              "life": 67,
+              "packets": 69914,
+              "bytes": 4614372,
+              "liveType": "UNKNOWN",
+              "lastSeen": 1568120294548,
+              "treatment": {
+                "instructions": [
+                  {
+                    "type": "OUTPUT",
+                    "port": "1"
+                  }
+                ],
+                "deferred": []
+              },
+              "selector": {
+                "criteria": [
+                  {
+                    "type": "IN_PORT",
+                    "port": 3
+                  },
+                  {
+                    "type": "ETH_DST",
+                    "mac": "00:00:00:00:00:01"
+                  },
+                  {
+                    "type": "ETH_SRC",
+                    "mac": "00:00:00:00:00:03"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
