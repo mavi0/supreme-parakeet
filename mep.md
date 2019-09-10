@@ -12,7 +12,7 @@ To use the RestAPI, there are three urls which we need to look at:
 ## Getting statistics data 
 Using a JSON parser in a langauge of your choice, statistics for an intent can be obtained fairly eassily using a JSON library. First find the intent you wish to get the statistics of from ```/onos/v1/imr/imr/monitoredIntents```, for example ```00:00:00:00:00:01/None00:00:00:00:00:03/None``` that is h1 -> h3. The JSON address for that would be ```x.response[0].intents[0].key```. Using that key, we can lookup the intent statistics from ```/onos/v1/imr/imr/intentStats```. For example to retrieve bytes for h1 -> h3 the JSON address would be, using the pervious key; ```x.statistics[0].intents[0].00:00:00:00:00:01/None00:00:00:00:00:03/None[0].bytes```. 
 
-## Getting traffic data for a specific port on a network device
+<!--## Getting traffic data for a specific port on a network device--->
 
 
 ## Requesting changes to intents
